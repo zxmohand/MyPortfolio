@@ -37,9 +37,8 @@ body {
 /* End Banner */
 /* Start Learn */
 @media (max-width: 767px) {
-  .learn,
-  .works {
-    width: 20px;
+  .learn{
+    width: 156px;
     height: 150px;
   }
 }
@@ -145,7 +144,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
-  overflow: hidden;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
@@ -164,7 +162,9 @@ body {
 }
 
 .section_three .container .image img {
-  width: 100%;
+  position: relative;
+  left: 30px;
+  width: 117%;
 }
 
 .section_three .container .sec3 p {
@@ -182,6 +182,17 @@ body {
 @media (max-width: 1200px) {
   .section_three {
     display: block;
+  }
+}
+@media (max-width: 990px) {
+  .section_three .container .image img {
+    width: 140%;
+  }
+}
+@media (max-width: 767px) {
+  .section_three .container {
+    display: flex;
+    justify-content: center;
   }
 }
 .section_three i {
@@ -207,7 +218,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
-  overflow: hidden;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
@@ -226,7 +236,7 @@ body {
 }
 
 .section_four .container .image img {
-  width: 100%;
+  width: 120%;
 }
 
 .section_four .container .sec4 p {
@@ -244,6 +254,19 @@ body {
 @media (max-width: 1200px) {
   .section_four {
     display: block;
+  }
+}
+@media (max-width: 990px) {
+  .section_four .container .image img {
+    position: relative;
+    right: 35px;
+    width: 150%;
+  }
+}
+@media (max-width: 767px) {
+  .section_four .container {
+    display: flex;
+    justify-content: center;
   }
 }
 .section_four i {
